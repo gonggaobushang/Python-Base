@@ -65,3 +65,22 @@ dt = odd()
 #遇到yield语句返回
 #再次执行时从上次返回的yield语句处继续执行
 next(dt)
+
+
+#判断是否为可迭代对象 Iterable
+from collections import Iterable
+isinstance([],Iterable)
+#判断是否是可以不断被next()调用的迭代器 Iterator
+from collections import Iterator
+isinstance([],Iterator)
+
+for x in [1,2,3,4,5]:
+    pass
+#等价于
+y = iter([1,2,3,4,5])
+#Iterator对象
+while True:
+    try:
+        next(y)
+    except StopIteration:
+        break

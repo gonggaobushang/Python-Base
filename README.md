@@ -11,4 +11,4 @@ python入门学习笔记
 数据处理。包括迭代、生成器等。
 
 ## function def.py
-面向函数。map、filter过滤序列、sorted排序序列等。
+面向函数。map、filter过滤序列、sorted排序序列、匿名函数等。

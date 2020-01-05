@@ -12,3 +12,6 @@ python入门学习笔记
 
 ## function def.py
 面向函数。map、filter过滤序列、sorted排序序列、匿名函数等。
+
+## import.py
+模块。
